@@ -15,8 +15,8 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_3e91f6c3e2baa8c076206e5b5df95d7cc294cbb374cfbb4655476fe7c09bc4f1 = $this->env->getExtension("native_profiler");
-        $__internal_3e91f6c3e2baa8c076206e5b5df95d7cc294cbb374cfbb4655476fe7c09bc4f1->enter($__internal_3e91f6c3e2baa8c076206e5b5df95d7cc294cbb374cfbb4655476fe7c09bc4f1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "UserBundle:Default:index.html.twig"));
+        $__internal_6b8cc4f8d17be4484558b5d026367973d1989cc0e401680e5653cdc0846078c4 = $this->env->getExtension("native_profiler");
+        $__internal_6b8cc4f8d17be4484558b5d026367973d1989cc0e401680e5653cdc0846078c4->enter($__internal_6b8cc4f8d17be4484558b5d026367973d1989cc0e401680e5653cdc0846078c4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "UserBundle:Default:index.html.twig"));
 
         // line 1
         echo "<html lang=\"en\">
@@ -40,15 +40,14 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
         // line 12
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/css/creative.css"), "html", null, true);
         echo "\"/>
-    
     <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 14
+        // line 13
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/vendor/font-awesome/css/font-awesome.min.css"), "html", null, true);
         echo "\"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 17
+        // line 16
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/vendor/magnific-popup/magnific-popup.css"), "html", null, true);
         echo "\"/>
     <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>
@@ -135,13 +134,14 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
             <div class=\"row\">
                 <div class=\"col-lg-12 text-center\">
                     <h2 class=\"section-heading\">NUESTROS SERVICOS</h2>
+                    <h5 class=\"primary\"> Para conocer en detalle nuestro servicio, por favor comuníquese con nuestro Jefe de Proyectos en la línea: 646-2</h5>
                     <hr class=\"primary\">
                 </div>
             </div>
         </div>
         <div class=\"container\">
             <div class=\"row\">
-                <div class=\"col-lg-4 col-md-6 text-center\">
+                <div class=\"col-md-4 col-sm-6 text-center\">
                     <div class=\"service-box\">
                         
                         <i class=\"fa fa-4x fa-search  text-primary sr-icons \"></i>
@@ -149,16 +149,16 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                         <p class=\"text-muted\">--</p>
                     </div>
                 </div>
-                <div class=\"col-lg-4 col-md-6 text-center\">
+                <div class=\"col-md-4 col-sm-6 text-center\">
                     <div class=\"service-box\">
-                        <i class=\"fa fa-4x fa-newspaper-o text-primary sr-icons\"></i>
+                        <i class=\"fa fa-4x fa fa-bar-chart text-primary sr-icons\"></i>
                         <h3>Formulación de Planes de Desarrollo Local Concertado</h3>
                         <p class=\"text-muted\">--</p>
                     </div>
                 </div>
-                <div class=\"col-lg-4 col-md-6 text-center\">
+                <div class=\"col-md-4 col-sm-6 text-center\">
                     <div class=\"service-box\">
-                        <i class=\"fa fa-4x fa-suitcase text-primary sr-icons\"></i>
+                        <i class=\"fa fa-4x fa fa-cog text-primary sr-icons\"></i>
                         <h3>Venta de materiales de construcción </h3>
                         <p class=\"text-muted\">--</p>
                     </div>
@@ -166,24 +166,24 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                 
             </div>
             <div class=\"row\">
-                <div class=\"col-lg-4 col-md-6 text-center\">
+                <div class=\"col-md-4 col-sm-6 text-center\">
                     <div class=\"service-box\">
-                        <i class=\"fa fa-4x fa-home text-primary sr-icons\"></i>
+                        <i class=\"fa-4x fa fa-road text-primary sr-icons\"></i>
                         <h3>Consultoría de Obras</h3>
-                        <p class=\"text-muted\">--</p>
+                        <p class=\"text-muted\">Nuestra experiencia en el ramo de la construcción nos respaldan</p>
                     </div>
                 </div>
-                <div class=\"col-lg-4 col-md-6 text-center\">
+                <div class=\"col-md-4 col-sm-6 text-center\">
                     <div class=\"service-box\">
                         <i class=\"fa fa-4x fa-book text-primary sr-icons\"></i>
                         <h3>Elaboración de perfiles </h3>
-                        <p class=\"text-muted\">--</p>
+                        <p class=\"text-muted\">El mejor grupo de profesionales nos avalan</p>
                     </div>
                 </div>
-                <div class=\"col-lg-4 col-md-6 text-center\">
+                <div class=\"col-md-4 col-sm-6 text-center\">
                     <div class=\"service-box\">
-                        <i class=\"fa fa-4x fa-suitcase text-primary sr-icons\"></i>
-                        <h3>IV.\tAlquiler de equipos livianos</h3>
+                        <i class=\"fa fa-4x fa-truck text-primary sr-icons\"></i>
+                        <h3>Alquiler de equipos livianos</h3>
                         <p class=\"text-muted\">--</p>
                     </div>
                 </div>
@@ -193,12 +193,12 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
     </section>
   <!----------------------------------- portfolio Section ---------------------------------->
   
-    <section id=\"portfolio\" class=\"bg-light-gray\">
+    <section id=\"portfolio\" class=\"bg-primary\">
         <div class=\"container\">
             <div class=\"row\">
                 <div class=\"col-lg-12 text-center\">
-                    <h2 class=\"section-heading\">Portfolio</h2>
-                    <h3 class=\"section-subheading text-muted\">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class=\"section-heading\">PORTAFOLIO</h2>
+                    <h3 class=\"section-subheading text-muted\">Estos son algunos de nuestros proyectos realizados</h3>
                 </div>
             </div>
             <div class=\"row\">
@@ -211,12 +211,12 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                         </div>
                         <img src=\"";
         // line 176
-        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/thumbnails/1.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/preview/1.jpg"), "html", null, true);
         echo "\" class=\"img-responsive\" alt=\"\">
                     </a>
                     <div class=\"portfolio-caption\">
-                        <h4>Round Icons</h4>
-                        <p class=\"text-muted\">Graphic Design</p>
+                        <h4 class=\"text-muted\">Puente Miraño</h4>
+                        <p class=\"text-muted\">Satipo - La Merced</p>
                     </div>
                 </div>
                 <div class=\"col-md-4 col-sm-6 portfolio-item\">
@@ -226,7 +226,10 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                                 <i class=\"fa fa-plus fa-3x\"></i>
                             </div>
                         </div>
-                        <img src=\"img/portfolio/startup-framework.png\" class=\"img-responsive\" alt=\"\">
+                        <img src=\"";
+        // line 190
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/preview/1.jpg"), "html", null, true);
+        echo "\" class=\"img-responsive\" alt=\"\">
                     </a>
                     <div class=\"portfolio-caption\">
                         <h4>Startup Framework</h4>
@@ -240,7 +243,10 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                                 <i class=\"fa fa-plus fa-3x\"></i>
                             </div>
                         </div>
-                        <img src=\"img/portfolio/treehouse.png\" class=\"img-responsive\" alt=\"\">
+                        <img src=\"";
+        // line 204
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/preview/1.jpg"), "html", null, true);
+        echo "\" class=\"img-responsive\" alt=\"\">
                     </a>
                     <div class=\"portfolio-caption\">
                         <h4>Treehouse</h4>
@@ -254,7 +260,10 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                                 <i class=\"fa fa-plus fa-3x\"></i>
                             </div>
                         </div>
-                        <img src=\"img/portfolio/golden.png\" class=\"img-responsive\" alt=\"\">
+                        <img src=\"";
+        // line 218
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/preview/1.jpg"), "html", null, true);
+        echo "\" class=\"img-responsive\" alt=\"\">
                     </a>
                     <div class=\"portfolio-caption\">
                         <h4>Golden</h4>
@@ -268,7 +277,10 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                                 <i class=\"fa fa-plus fa-3x\"></i>
                             </div>
                         </div>
-                        <img src=\"img/portfolio/escape.png\" class=\"img-responsive\" alt=\"\">
+                        <img src=\"";
+        // line 232
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/preview/1.jpg"), "html", null, true);
+        echo "\" class=\"img-responsive\" alt=\"\">
                     </a>
                     <div class=\"portfolio-caption\">
                         <h4>Escape</h4>
@@ -282,7 +294,10 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                                 <i class=\"fa fa-plus fa-3x\"></i>
                             </div>
                         </div>
-                        <img src=\"img/portfolio/dreams.png\" class=\"img-responsive\" alt=\"\">
+                        <img src=\"";
+        // line 246
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/preview/1.jpg"), "html", null, true);
+        echo "\" class=\"img-responsive\" alt=\"\">
                     </a>
                     <div class=\"portfolio-caption\">
                         <h4>Dreams</h4>
@@ -297,7 +312,7 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
         <div class=\"container\">
             <div class=\"row\">
                 <div class=\"col-lg-12 text-center\">
-                    <h2 class=\"section-heading\">Nuestro Equipo</h2>
+                    <h2 class=\"section-heading\">NUESTRO EQUIPO</h2>
                     <h3 class=\"section-subheading text-muted\">Profesionales de ato nivel</h3>
                 </div>
             </div>
@@ -344,7 +359,7 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
         // line 298
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/team/3.jpg"), "html", null, true);
         echo "\" class=\"img-responsive img-circle\" alt=\"\">
-                        <h4>FERNANDO GUSTAVO BRAVO VALER</h4>
+                        <h4>Fernando G. Bravo Valer</h4>
                         <p class=\"text-muted\">INGENIERO CIVIL</p>
                         <ul class=\"list-inline social-buttons\">
                             <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a>
@@ -365,27 +380,102 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
         </div>
     </section>
     <!------------------------------------- contacto Section --------------------------------->                    
-    <section id=\"contact\">
+    <section id=\"contact\" class=\"bg-primary\">
         <div class=\"container\">
             <div class=\"row\">
-                <div class=\"col-lg-8 col-lg-offset-2 text-center\">
-                    <h2 class=\"section-heading\">Let's Get In Touch!</h2>
+                <div class=\"col-lg-12  text-center\">
+                    <h2 class=\"section-heading\">VAMOS A ESTAR EN CONTACTO!</h2>
                     <hr class=\"primary\">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Listo para iniciar su próximo proyecto con nosotros? ¡Eso es genial! Danos una llamada o enviar un correo electrónico y nos pondremos en contacto con usted tan pronto como sea posible!</p>
                 </div>
-                <div class=\"col-lg-4 col-lg-offset-2 text-center\">
+            </div>
+            <div class=\"row\">
+                <div class=\"col-lg-4  text-center\">
                     <i class=\"fa fa-phone fa-3x wow bounceIn\"></i>
-                    <p>123-456-6789</p>
+                    <p>+51 954815849</p>
                 </div>
                 <div class=\"col-lg-4 text-center\">
                     <i class=\"fa fa-envelope-o fa-3x wow bounceIn\" data-wow-delay=\".1s\"></i>
-                    <p><a href=\"mailto:your-email@your-domain.com\">feedback@startbootstrap.com</a></p>
+                    <p><a href=\"mailto:consultas@gwfinca.com\">consultas@gwfinca.com</a></p>
+                </div>
+                <div class=\"col-lg-4 text-center\">
+                    <i class=\"fa fa-map-marker fa-3x wow bounceIn\"></i>
+                    <p>Satipo</p>
                 </div>
             </div>
         </div>
+        
+        <div class=\"row\">
+                <div class=\"col-lg-6\">
+                    <div class=\"col-lg-12\">
+                     <hr class=\"primary\">     
+                    <p>Envianos un mensaje!</p>
+                </div>
+                    <form name=\"sentMessage\" id=\"contactForm\" novalidate>
+                        <div class=\"row\">
+                            <div class=\"col-md-6\">
+                                <div class=\"form-group\">
+                                    <input type=\"text\" class=\"form-control\" placeholder=\"Tu nombre *\" id=\"name\" required data-validation-required-message=\"Please enter your name.\">
+                                    <p class=\"help-block text-danger\"></p>
+                                </div>
+                                <div class=\"form-group\">
+                                    <input type=\"email\" class=\"form-control\" placeholder=\"Tu correo *\" id=\"email\" required data-validation-required-message=\"Please enter your email address.\">
+                                    <p class=\"help-block text-danger\"></p>
+                                </div>
+                                <div class=\"form-group\">
+                                    <input type=\"tel\" class=\"form-control\" placeholder=\"Tu telefono *\" id=\"phone\" required data-validation-required-message=\"Please enter your phone number.\">
+                                    <p class=\"help-block text-danger\"></p>
+                                </div>
+                            </div>
+                            <div class=\"col-md-6\">
+                                <div class=\"form-group\">
+                                    <textarea class=\"form-control\" placeholder=\"Tu mensaje *\" id=\"message\" required data-validation-required-message=\"Please enter a message.\"></textarea>
+                                    <p class=\"help-block text-danger\"></p>
+                                </div>
+                            </div>
+                            <div class=\"clearfix\"></div>
+                            <div class=\"col-lg-12 text-center\">
+                                <div id=\"success\"></div>
+                                <button type=\"submit\" class=\"btn btn-xl\">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
     </section>                    
-                    
+        <!------------------------------------- Modal Section --------------------------------->                    
+                
     <div class=\"portfolio-modal modal fade\" id=\"portfolioModal1\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
+        <div class=\"modal-content\">
+            <div class=\"close-modal\" data-dismiss=\"modal\">
+                <div class=\"lr\">
+                    <div class=\"rl\">
+                    </div>
+                </div>
+            </div>
+            <div class=\"container\">
+                <div class=\"row\">
+                    <div class=\"col-lg-8 col-lg-offset-2\">
+                        <div class=\"modal-body\">
+                            <!-- Project Details Go Here -->
+                            <h2>Puente Miraño</h2>
+                            <p class=\"item-intro text-muted\">Satipo - La Merced</p>
+                            <img class=\"img-responsive img-centered\" src=\"";
+        // line 401
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/full/a1.jpg"), "html", null, true);
+        echo "\" alt=\"\">
+                            <p>Treehouse is a free PSD web template built by <a href=\"https://www.behance.net/MathavanJaya\">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href=\"http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/\">FreebiesXpress.com</a>.</p>
+                            <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i>Cerrar Proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>                    
+         
+    <div class=\"portfolio-modal modal fade\" id=\"portfolioModal2\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
         <div class=\"modal-content\">
             <div class=\"close-modal\" data-dismiss=\"modal\">
                 <div class=\"lr\">
@@ -400,7 +490,10 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                             <!-- Project Details Go Here -->
                             <h2>Project Name</h2>
                             <p class=\"item-intro text-muted\">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class=\"img-responsive img-centered\" src=\"img/portfolio/treehouse-preview.png\" alt=\"\">
+                            <img class=\"img-responsive img-centered\" src=\"";
+        // line 427
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/img/portfolio/thumbnails/1.jpg"), "html", null, true);
+        echo "\" alt=\"\">
                             <p>Treehouse is a free PSD web template built by <a href=\"https://www.behance.net/MathavanJaya\">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
                             <p>You can download the PSD template in this portfolio sample item at <a href=\"http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/\">FreebiesXpress.com</a>.</p>
                             <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close Project</button>
@@ -409,31 +502,30 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
                 </div>
             </div>
         </div>
-    </div>                    
-                        
+    </div>    
     <!-- jQuery -->
     <script type=\"text/javascript\" src=\"";
-        // line 367
+        // line 438
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/vendor/jquery/jquery.min.js"), "html", null, true);
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 368
+        // line 439
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/vendor/bootstrap/js/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
     <!-- Bootstrap Core JavaScript -->
     <!-- Plugin JavaScript -->
     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 372
+        // line 443
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/vendor/scrollreveal/scrollreveal.min.js"), "html", null, true);
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 373
+        // line 444
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/vendor/magnific-popup/jquery.magnific-popup.min.js"), "html", null, true);
         echo "\"></script>
     <!-- Theme JavaScript -->
     <script type=\"text/javascript\" src=\"";
-        // line 375
+        // line 446
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/user/js/creative.min.js"), "html", null, true);
         echo "\"></script>
 
@@ -442,7 +534,7 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
 </html>
 ";
         
-        $__internal_3e91f6c3e2baa8c076206e5b5df95d7cc294cbb374cfbb4655476fe7c09bc4f1->leave($__internal_3e91f6c3e2baa8c076206e5b5df95d7cc294cbb374cfbb4655476fe7c09bc4f1_prof);
+        $__internal_6b8cc4f8d17be4484558b5d026367973d1989cc0e401680e5653cdc0846078c4->leave($__internal_6b8cc4f8d17be4484558b5d026367973d1989cc0e401680e5653cdc0846078c4_prof);
 
     }
 
@@ -458,6 +550,6 @@ class __TwigTemplate_34f6b6d7b5f63d68fb393418781e8a74bb399bcdc2f3c5ef7468854438d
 
     public function getDebugInfo()
     {
-        return array (  437 => 375,  432 => 373,  428 => 372,  421 => 368,  417 => 367,  345 => 298,  327 => 283,  309 => 268,  214 => 176,  52 => 17,  46 => 14,  41 => 12,  37 => 11,  33 => 10,  22 => 1,);
+        return array (  529 => 446,  524 => 444,  520 => 443,  513 => 439,  509 => 438,  495 => 427,  466 => 401,  360 => 298,  342 => 283,  324 => 268,  299 => 246,  282 => 232,  265 => 218,  248 => 204,  231 => 190,  214 => 176,  51 => 16,  45 => 13,  41 => 12,  37 => 11,  33 => 10,  22 => 1,);
     }
 }
