@@ -143,6 +143,8 @@ aside {
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #35b740 ;
     font-size: 14px;
+    position: absolute;
+    top: 10px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
