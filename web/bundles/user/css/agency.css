@@ -133,12 +133,7 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-  color: #fec503;
-}
+
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
@@ -503,6 +498,12 @@ section h3.section-subheading {
   margin: 0 auto;
   border: 7px solid white;
 }
+
+.conocenos img {
+  
+  margin-bottom: 100px;
+}
+
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
@@ -511,6 +512,10 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
+.team-member i {
+   margin-top: 10;
+} 
+    
 aside.clients img {
   margin: 50px auto;
 }
